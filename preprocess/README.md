@@ -1,5 +1,5 @@
 # Passages Indexing
-The passages indexing of TopiOCQA, QReCC, TREC CAsT 2020 & 2021, and TREC CAsT 2022 are time-consuming and take up a lot of disk space. 
+The passages indexing of TopiOCQA, QReCC, TREC CAsT 2019 & 2020, and TREC CAsT 2021 are time-consuming and take up a lot of disk space. 
 
 Nevertheless, we provide codes and scripts in ```src/cs_shortcut``` to build the pipeline for passages indexing. In detail, the ```data_preprocessing.sh``` will scan all available jsonline passages:
 ```python
@@ -25,6 +25,5 @@ For BM25 indexing, use ```src/cs_shortcut/topiocqa_convert_to_pyserini_file.py``
 Some useful links for dataset downloading and preprocessing:
 - TopiOCQA: [link1](https://github.com/McGill-NLP/topiocqa/), [link2](https://github.com/naver-ai/cs-shortcut/)
 - QReCC: [link1](https://github.com/apple/ml-qrecc), [link2](https://github.com/naver-ai/cs-shortcut/)
-- TREC CAsT 2020 & 2021: [link1](https://www.treccast.ai/), [link2](https://github.com/kyriemao/ConvTrans/), [link3](https://github.com/thunlp/ConvDR)
-- TREC CAsT 2022: [link1](https://www.treccast.ai/), [link2](https://github.com/grill-lab/trec-cast-tools/)
-
+- TREC CAsT 2019 & 2020: [link1](https://www.treccast.ai/), [link2](https://github.com/kyriemao/ConvTrans/), [link3](https://github.com/thunlp/ConvDR)
+- TREC CAsT 2021: [link1](https://www.treccast.ai/), [link2](https://github.com/grill-lab/trec-cast-tools/)

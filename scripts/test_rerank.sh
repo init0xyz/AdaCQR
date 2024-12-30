@@ -6,21 +6,21 @@ dataset="topiocqa"
 if [ "$dataset" = "topiocqa" ]; then
     test_data_path="/data1/laiyilong/infocqr/datasets/topiocqa/test.json"
     model_name="google-t5/t5-base"
-    checkpoint_path="/data1/laiyilong/infocqr/checkpoints/t5_base_topiocqa_rerank_stage2/epoch=3-step=18141.ckpt"
+    checkpoint_path="your_checkpoint_path"
     bm25_index_path="/data1/laiyilong/infocqr/datasets/pyserini_index"
     output_file_path="/data1/laiyilong/infocqr/topiocqa_output/topiocqa_test.json"
 elif [ "$dataset" = "qrecc" ]; then
     test_data_path="/data/laiyilong/InfoCQR/datasets/qrecc/test.json"
     model_name="google-t5/t5-base"
-    checkpoint_path="/data/laiyilong/InfoCQR/checkpoints/qrecc_t5_gamma_10_stage2/epoch=1-step=8441.ckpt"
+    checkpoint_path="your_checkpoint_path"
     bm25_index_path="/data/laiyilong/InfoCQR/datasets/preprocessed/qrecc/pyserini_index"
-    output_file_path="/data/laiyilong/InfoCQR/qrecc_output/qrecc_test_only_dense_stage3_epoch0_step4009.json"
+    output_file_path="/data/laiyilong/InfoCQR/qrecc_output/qrecc_test_only_dense_stage3.json"
 else
     test_data_path="/data1/laiyilong/infocqr/datasets/cast/cast19_test.json"
     model_name="google-t5/t5-base"
-    checkpoint_path="/data1/laiyilong/infocqr/checkpoints/t5_base_topiocqa_rerank_stage2/epoch=3-step=18141.ckpt"
+    checkpoint_path="your_checkpoint_path"
     bm25_index_path="/data1/laiyilong/infocqr/datasets/pyserini_index"
-    output_file_path="/data1/laiyilong/infocqr/cast19_output/test_stage2_e3_s18141.json"
+    output_file_path="/data1/laiyilong/infocqr/cast19_output/test_stage2.json"
 fi
 
 python src/train_rerank.py \

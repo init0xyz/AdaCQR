@@ -18,7 +18,7 @@ else
     model_name="google-t5/t5-base"
     train_data_path="/data/laiyilong/InfoCQR/ablation_study_datasets/train_candidates_stage6_cos.json"
     dev_data_path="/data/laiyilong/InfoCQR/datasets/qrecc/dev.json"
-    checkpoint_path="/data/laiyilong/InfoCQR/checkpoints/qrecc_t5_ablation_raw_stage6/epoch=0-step=1899.ckpt"
+    checkpoint_path="/data/laiyilong/InfoCQR/checkpoints/qrecc_t5_base_stage1/epoch=0-step=1899.ckpt"
     default_root_dir="./checkpoints/qrecc_t5_base_rewrite_stage7"
     bm25_index_path="/data/laiyilong/InfoCQR/datasets/preprocessed/qrecc/pyserini_index"
     k1=0.82
