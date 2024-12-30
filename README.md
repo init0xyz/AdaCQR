@@ -3,7 +3,7 @@
 
 ## 💻 Codes
 ### Passages Indexing
-See [README.md](https://github.com/init0xyz/AdaCQR-preview/blob/main/preprocess/README.md) in preprocess folder.
+See [README.md](https://github.com/init0xyz/AdaCQR/blob/main/preprocess/README.md) in preprocess folder.
 
 ### Training
 NOTE: The processed training and testing datasets, including QReCC and TopiOCQA, can be downloaded from [Google Drive](https://drive.google.com/file/d/1Rp6xSUbJ0apAB9Bhikl3wVsPUluwb-R0/view?usp=sharing).
@@ -58,4 +58,4 @@ bash scripts/test_rerank.sh
 ## Acknowledgment
 We are very grateful to leverage prior works & source code to build this work, which includes [ConvGQR](https://github.com/fengranMark/ConvGQR), [InfoCQR](https://github.com/smartyfh/InfoCQR), [cs-shortcut](https://github.com/naver-ai/cs-shortcut), [LLM4CS](https://github.com/kyriemao/LLM4CS), [BRIO](https://github.com/yixinL7/BRIO).
 
-If you have any question about AdaCQR, feel free to contact me by [yilong.lai@seu.edu.cn](mailto:yilong.lai@seu.edu.cn).
+If you have any questions about AdaCQR, feel free to contact me by [yilong.lai@seu.edu.cn](mailto:yilong.lai@seu.edu.cn).
